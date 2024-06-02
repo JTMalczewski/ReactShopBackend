@@ -1,3 +1,3 @@
 # ReactShop
 
-Repository created for Ebiznes course on my umi.
+Repository created for Ebiznes course on my umi. 
