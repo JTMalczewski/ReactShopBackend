@@ -10,7 +10,7 @@ let products = [
 ];
 
 app.get('/prod', function (req, res) {
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
+    res.setHeader('Access-Control-Allow-Origin', '*');
     res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
     console.log('I send the products.')
     res.json(
